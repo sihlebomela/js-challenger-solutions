@@ -17,3 +17,6 @@ function main(a) {
     a = a.split("")
     return a.map((item) => Number(item));  
 }
+
+// method 2 (refactor/one liner)
+const main2 = (a) => String(a).split("").map((item) => Number(item));
