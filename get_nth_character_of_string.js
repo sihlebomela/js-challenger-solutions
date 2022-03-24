@@ -3,9 +3,9 @@
  
 	* Solution(Steps)
 	- use 'charAt' property to access the character from string by index 
-	- add one on the index argument to make it one-index based
+	- minus one on the index argument to make it seem one-index based
 */
 
 function main(a, n) {
-	return a.charAt(n);
+	return a.charAt(n - 1);
 }
