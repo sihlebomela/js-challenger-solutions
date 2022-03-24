@@ -7,5 +7,5 @@
 */
  
 function main(str) {
-	return str.slice(str.length - 3, str.length)
+	return str.slice(-3)
 }
